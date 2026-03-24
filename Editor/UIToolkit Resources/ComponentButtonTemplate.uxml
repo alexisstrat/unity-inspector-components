@@ -1,0 +1,7 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Packages/com.alexandros.inspectorcomponents/Editor/UIToolkit%20Resources/InspectorComponentsStyles.uss?fileID=7433441132597879392&amp;guid=353969d5cabac4a9b99aa45ed8f34ce1&amp;type=3#InspectorComponentsStyles"/>
+    <ui:Button text="" double-click-selects-word="true" triple-click-selects-line="true" display-tooltip-when-elided="true" name="component-button" class="component-button" style="align-self: flex-start; flex-direction: row;">
+        <ui:Image name="component-icon" style="width: 15px; height: 15px;"/>
+        <ui:Label text="Component" double-click-selects-word="false" triple-click-selects-line="false" display-tooltip-when-elided="false" name="component-name" style="padding-left: 5px;"/>
+    </ui:Button>
+</ui:UXML>

@@ -1,0 +1,19 @@
+{
+  "name": "com.alexandros.inspectorcomponents",
+  "version": "1.0.0",
+  "displayName": "Inspector Components",
+  "description": "Draw component toggles on top of inspector and select one or many to isolate them",
+  "unity": "6000.0",
+  "unityRelease": "60f1",
+  "documentationUrl": "https://github.com/alexisstrat/unity-inspector-components",
+  "licensesUrl": "https://github.com/alexisstrat/unity-inspector-components/blob/main/LICENSE",
+  "dependencies": {
+  },
+  "keywords": [
+  ],
+  "author": {
+    "name": "Alexandros Stratakis",
+    "email": "stratakis.alexandros@gmail.com",
+    "url": "https://github.com/alexisstrat"
+  }
+}

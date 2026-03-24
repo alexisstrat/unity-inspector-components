@@ -1,0 +1,35 @@
+.component-button {
+    background-color: var(--unity-colors-button-background);
+    margin: 1px 3px;
+    padding: 1px 6px 1px 25px;
+    flex-direction: row;
+    flex-shrink: 0;
+    height: 25px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-left-color: rgb(0, 0, 0);
+    border-right-color: rgb(0, 0, 0);
+    border-top-color: rgb(0, 0, 0);
+    border-bottom-color: rgb(0, 0, 0);
+    padding-left: 6px;
+    align-self: flex-start;
+    align-items: center;
+}
+
+.component-button:hover {
+    background-color: var(--unity-colors-button-background-hover);
+}
+
+.component-button:active {
+    background-color: var(--unity-colors-button-background-pressed);
+}
+
+.component-button.pressed {
+    background-color: var(--unity-colors-button-background-pressed);
+}
